@@ -1,0 +1,29 @@
+                    BACKEND FOR E-CART 
+               ----------------------------
+
+    1. Create a  folder BACKEND
+    2. Create a  package.json file  [ npm init ]
+    3. install 3rd party package [ npm i express cors mongoose dotenv ]
+    4. Create file  index.js , .env , .gitignore
+    5. inside in it
+        -> To Automatically load .env file into our application
+        -> Import express , cors , dotenv
+        -> create a server application
+        -> use core(), express.json in server application
+        -> define port number
+        -> Run the server application
+    6. MONGODB ATLAS CONFIGURATION
+        -> create a db and collection in ATLAS
+        -> copy connection string in to  the  .evn file
+        -> create a folder DB , inside DB create a connection.js 
+        -> In connection.js
+            -> Import mongoose
+            -> get db connection string from .evn file
+            -> Use mongoose.connect for connecting MONGODB ATLAS and NODEJS
+        -> Import connection.js in index.js
+    7. Create a Model and schema to store product details and export the Model
+        -> productSchema.js
+    8. Create a router to route
+        -> Here we create a path for api routes
+    9. Test the path using postman/Thunder client to test
+    10. Integrated with frontend
